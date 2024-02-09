@@ -2,7 +2,7 @@ version: "3.9"
 services:
   # Service "web"
   web:
-    # Build Dockerfile in current dir
+    # Build Dockerfile in current dir 
     build: .
     # Expose app port 5000 on machine as 8000
     ports:
